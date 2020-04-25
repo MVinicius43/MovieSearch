@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "99pE/SqSqkcWEbu0uj1d/aCaIiC4+l9xPpLcqkjH84Hfg4V0juaRmQdZgXGCjP2x1RA8zceO1woYnb3jMfkITg==",
+  "dgSpecHash": "fdD9s2NzAHhWz2ulkmHthtWjR50RgRGaD6dXD+B0aF5wADVHa7zC+D7pf6jLFi1GGwn+2GNPCXS5eO/1gvIA/A==",
   "success": true,
   "projectFilePath": "D:\\MovieSearch\\MovieSearch\\MovieSearch\\MovieSearch\\MovieSearch.Android\\MovieSearch.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mvini\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\mvini\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mvini\\.nuget\\packages\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Users\\mvini\\.nuget\\packages\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MovieSearch.Model
 {
-    class Movie
+    public class Movie
     {
         public class Rootobject
         {
