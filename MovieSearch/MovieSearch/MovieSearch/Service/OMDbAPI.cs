@@ -11,14 +11,14 @@ namespace MovieSearch.Service
     {
         private static string apiURL = "http://www.omdbapi.com/?t={0}&apikey=255a9abf";
 
-        public static Movie BuscaFilme (string movie)
+        public static Movie.Rootobject BuscaFilme (string movie)
         {
             string completeURL = string.Format(apiURL, movie);
 
             WebClient wb = new WebClient();
             var result = wb.DownloadString(completeURL);
 
-            Movie mv = JsonConvert.DeserializeObject<Movie>(result);
+            Movie.Rootobject mv = JsonConvert.DeserializeObject<Movie.Rootobject>(result);
 
             return mv;
         }

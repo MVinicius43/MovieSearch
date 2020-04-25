@@ -6,11 +6,15 @@
              mc:Ignorable="d"
              x:Class="MovieSearch.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-
+    <ScrollView>
+        <StackLayout>
+        <Label Text="ALL MOVIES" TextColor="#800000" Margin="0,30" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Entry x:Name="nomeFilme" Placeholder="ENTER THE NAME:" PlaceholderColor="#800000"/>
+            <Button x:Name="buttonBuscar" Text="SEARCH" BackgroundColor="#800000" TextColor="White" HeightRequest="40" Margin="10" BorderWidth="200"/>
+        </StackLayout>
+        <Image x:Name="cartaz" Source="OMDBAPI.png" Margin="10,10,10,20"/>
+        <Label x:Name="sobreFilme" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
